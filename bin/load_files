@@ -1,0 +1,10 @@
+#! /usr/bin/env ruby -w
+
+require 'irb'
+
+puts 'Loading files...'
+require './lib/account.rb'
+require './lib/statement.rb'
+require './lib/transaction.rb'
+
+IRB.start
